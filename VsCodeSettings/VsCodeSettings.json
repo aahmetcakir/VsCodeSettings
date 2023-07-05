@@ -1,15 +1,15 @@
 {
-    "workbench.colorTheme": "Signed Dark Pro",
+    "workbench.colorTheme": "One Hunter Theme Vercel",
     "editor.fontSize": 18,
     "editor.minimap.enabled": false,
-    "workbench.iconTheme": "vscode-icons",
+    "workbench.iconTheme": "eq-material-theme-icons-light",
     "editor.cursorStyle": "block",
     "C_Cpp.updateChannel": "Insiders",
     "[vue]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "[javascript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
+        "editor.defaultFormatter": "vscode.typescript-language-features"
     },
     "javascript.updateImportsOnFileMove.enabled": "always",
     "[html]": {
@@ -73,13 +73,54 @@
         "fortran": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt"
     },
     "[json]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
+        "editor.defaultFormatter": "vscode.json-language-features"
     },
     "workbench.panel.defaultLocation": "right",
     "terminal.integrated.tabs.enabled": true,
     "sync.gist": "c271b0cf212e0c64e912e6650f93d32b",
     "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "explorer.confirmDelete": false,
+    "vsicons.dontShowNewVersionMessage": true,
+    "todohighlight.isEnable": false,
+    "todohighlight.toggleURI": true,
+    "workbench.startupEditor": "none",
+    "bracketPairColorizer.depreciation-notice": false,
+    "git.confirmSync": false,
+    "editor.minimap.side": "left",
+    "workbench.sideBar.location": "right",
+    "[scss]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    "window.zoomLevel": -1
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "eslint.alwaysShowStatus": true,
+    "[dockercompose]": {
+        "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+    },
+    "[yaml]": {
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
+    "[css]": {
+        "editor.defaultFormatter": "vscode.css-language-features"
+    },
+    "svelte.plugin.svelte.note-new-transformation": false,
+    "[svelte]": {
+        "editor.defaultFormatter": "svelte.svelte-vscode"
+    },
+    "svelte.enable-ts-plugin": true,
+    "[typescript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "snipped.enablePng": true,
+    "snipped.enableLogo": false,
+    "snipped.disableTitle": true,
+    "window.zoomLevel": -1,
+    "editor.inlineSuggest.enabled": true,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "[python]": {
+        "editor.formatOnType": true
+    }
 }

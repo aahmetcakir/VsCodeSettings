@@ -10,10 +10,6 @@
         "when": "textInputFocus && !editorReadonly"
     },
     {
-        "key": "shift+oem_4",
-        "command": "bracket-pair-colorizer.expandBracketSelection"
-    },
-    {
         "key": "shift+oem_6",
         "command": "bracket-pair-colorizer.undoBracketSelection"
     },
